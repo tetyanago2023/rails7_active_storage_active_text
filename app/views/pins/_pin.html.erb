@@ -4,4 +4,12 @@
     <%= pin.title %>
   </p>
 
+  <%= pin.body %>
+  <br />
+  <%= pin.image %>
+  <hr />
+  <%= pin.pictures.each do |picture| %>
+    <%= picture %>
+  <% end %>
+
 </div>
